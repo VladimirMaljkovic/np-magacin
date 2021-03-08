@@ -23,7 +23,7 @@ public class Magacin implements IMagacin {
 		if(artikli.contains(artikal))
 			for(Artikal a:artikli)
 			if(a==artikal)
-				a.setKolicina(a.getKolicina()-11);
+				a.setKolicina(a.getKolicina()-1);
 	}
 
 	@Override
